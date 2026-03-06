@@ -1,5 +1,6 @@
 # Customer-Shopping-Behavior-Analysis
-Project Overview
+
+# Project Overview
 
 This project analyzes customer shopping behavior using transactional data from 3,900 purchases across multiple product categories.
 
@@ -7,19 +8,18 @@ The main objective is to uncover insights into spending patterns, customer segme
 
 This project combines Python, MySQL, and Power BI to perform data cleaning, analysis, and visualization. 
 
-Customer Shopping Behavior Anal…
 
-Dataset Summary
+# Dataset Summary
 
 Rows: 3,900
 
 Columns: 18
 
-Key Features
+# Key Features
 
 The dataset includes:
 
-Customer Demographics
+# Customer Demographics
 
 Age
 
@@ -29,7 +29,7 @@ Location
 
 Subscription Status
 
-Purchase Details
+# Purchase Details
 
 Item Purchased
 
@@ -43,7 +43,7 @@ Size
 
 Color
 
-Shopping Behavior
+# Shopping Behavior
 
 Discount Applied
 
@@ -57,47 +57,48 @@ Review Rating
 
 Shipping Type
 
-Missing Data
+# Missing Data
 
 37 missing values in the Review Rating column. 
 
-Customer Shopping Behavior Anal…
 
-Exploratory Data Analysis (Python)
+# Exploratory Data Analysis (Python)
 
 Data preparation and cleaning were performed using Python and Pandas.
 
-Data Loading
+# Data Loading
 
 The dataset was imported using pandas.
 
 import pandas as pd
-Initial Exploration
+
+# Initial Exploration
 
 Checked dataset structure and data types.
 
 df.info()
-Missing Data Handling
+
+# Missing Data Handling
 
 Missing values in the Review Rating column were filled using the median rating of each product category.
 
-Column Standardization
+# Column Standardization
 
 All column names were converted to snake_case for better readability and documentation.
 
-Feature Engineering
+# Feature Engineering
 
 Two new features were created:
 
-Age Group
+# Age Group
 
 Customers grouped into different age categories.
 
-Purchase Frequency Days
+# Purchase Frequency Days
 
 Derived from purchase data to analyze buying frequency.
 
-Data Consistency Check
+# Data Consistency Check
 
 Checked whether the following columns were redundant:
 
@@ -107,15 +108,15 @@ promo_code_used
 
 The promo_code_used column was removed after verification.
 
-Database Integration
+# Database Integration
 
 The cleaned dataset was exported to MySQL for further analysis.
 
-Data Analysis (SQL)
+# Data Analysis (SQL)
 
 SQL queries were written to answer key business questions.
 
-Key Analyses
+# Key Analyses
 
 1. Revenue by Gender
 
@@ -164,9 +165,9 @@ Checked if customers with more than 5 purchases are more likely to subscribe.
 
 Calculated revenue contribution by each age group.
 
-Power BI Dashboard
+# Power BI Report
 
-An interactive Power BI dashboard was created to visualize the insights from the analysis.
+An interactive Power BI report was created to visualize the insights from the analysis.
 
 The report includes:
 
@@ -182,7 +183,7 @@ Subscription impact
 
 Age group revenue trends
 
-Business Recommendations
+# Business Recommendations
 
 Based on the analysis, the following recommendations were made:
 
@@ -210,7 +211,7 @@ High-revenue age groups
 
 Customers using express shipping
 
-Tools & Technologies
+# Tools & Technologies
 
 Python
 
@@ -222,7 +223,7 @@ Power BI
 
 Jupyter Notebook
 
-Key Skills Demonstrated
+# Key Skills Demonstrated
 
 Data Cleaning
 
